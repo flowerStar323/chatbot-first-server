@@ -1,0 +1,9 @@
+module.exports = {
+  UNPAIRED: 0,
+  DISCONNECTED: 1,
+  LOGGEDOUT: 2,
+  CONFLICT: 3,
+  CONNECTED: 4,
+  NOTCONNECTED: 5,
+  TIMEOUT: 6,
+};

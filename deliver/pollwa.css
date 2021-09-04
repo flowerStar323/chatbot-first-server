@@ -1,0 +1,185 @@
+
+#pw117-chat-icon {
+  padding-left: 10px;
+  padding-top: 8px;
+  color: white;
+}
+
+#pw117-chat-icon-wrapper {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 7px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 5px 7px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  width: 70px;
+  height: 70px;
+  border-radius: 60px / 60px;
+  border: 1px solid lightgray;
+  background-color: XXXCCCXXX;
+}
+
+#pw117-chat-icon-wrapper:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#pw117-chat-window {
+  font-family: 'Inter', sans-serif !important;
+  width: 350px;
+  height: 500px;
+  border: 1px solid lightgray;
+  position: fixed;
+  bottom: 115px;
+  right: 25px;
+  border-radius: 5px / 5px;
+  -webkit-box-shadow: 0px 10px 13px -7px #00000063, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #00000063, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#pw117-chat-header {
+  background-color: XXXHCXXX;
+  height: 35px;
+  padding: 15px;
+  font-size: 1.3em;
+  color: white;
+}
+#pw117-start-chat {
+  font-family: 'Inter', sans-serif !important;
+  margin: 30px 20px;
+  height: fit-content;
+  border-radius: 5px / 5px;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+
+#pw117-start-chat > input {
+  font-family: 'Inter', sans-serif !important;
+  width: 90%;
+  height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 5px / 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+
+#pw117-start-chat > input:hover {
+  outline: none;
+}
+
+#pw117-start-chat > button {
+  font-family: 'Inter', sans-serif !important;
+  width: 98.5%;
+  height: 38px;
+  color: white;
+  background-color: XXXBCXXX;
+  outline: none;
+  border: none;
+  border-radius: 5px / 5px;
+  cursor: pointer;
+}
+
+#pw117-start-chat > button:hover {
+  background-color: XXXBCXXX;
+  opacity: 0.9;
+}
+
+.pw117-block {
+  display: block;
+}
+
+.pw117-hidden {
+  visibility: hidden;
+}
+
+.pw117-hidden-hard {
+  display: none;
+}
+
+.pw117-close-icon {
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+
+.pw117-input-error {
+  border: 1px solid red !important;
+}
+
+#pw117-chat-messages {
+  font-family: 'Inter', sans-serif !important;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  overflow-y: scroll;
+  height: 365px;
+}
+
+.pw117-message {
+  padding: 15px;
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+.pw117-message-file {
+  margin-top: 10px !important;
+}
+
+.pw117-bot-message {
+  float: left;
+  background-color: XXXBCXXX;
+  color: white;
+  border-radius: 0px 5px 5px 5px;
+  clear: both;
+}
+
+.pw117-user-message {
+  float: right;
+  background-color: rgba(211, 211, 211, 0.788);
+  color: rgba(0, 0, 0, 0.829);
+  border-radius: 5px 0px 5px 5px;
+  clear: both;
+}
+
+.pw117-message-button {
+  float: left;
+  padding: 15px;
+  margin-top: 10px;
+  max-width: 80%;
+  clear: both;
+  background-color: XXXBCXXX;
+  color: white;
+  border-radius: 2px 2px 2px 2px;
+  cursor: pointer;
+  box-shadow: 0px 5px 3px -3px #00000063, 3px 3px 3px 3px rgba(0,0,0,0);
+}
+
+.pw117-message-button:hover {
+  background-color: XXXBCXXX;
+  opacity: 0.9;
+}
+
+#pw117-message-inputs {
+  position: absolute;
+  bottom: 0px;
+  width: 98%;
+}
+
+#pw117-message-input {
+  font-family: 'Inter', sans-serif !important;
+  width: 95%;
+  height: 35px;
+  border: 2px solid lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#pw117-message-input:focus {
+  outline: none;
+}
+
+.pw117-file-link {
+  color: white;
+}
